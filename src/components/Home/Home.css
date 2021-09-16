@@ -1,0 +1,25 @@
+.sidebar__toggle {
+  position: fixed;
+  font-size: 1.5rem;
+  color: rgb(71, 71, 248);
+  top: 2rem;
+  left: 3rem;
+  border: none;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  animation: bounce 2s ease-in-out infinite;
+  z-index: -100;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
