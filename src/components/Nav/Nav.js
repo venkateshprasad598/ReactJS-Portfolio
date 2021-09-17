@@ -8,7 +8,7 @@ const Nav = () => {
   console.log(data.slide);
   return (
     <aside>
-      <div className={data.slide ? "slider__show" : "slider__hide"}>
+      <div className={data.slide ? "nav__menu active" : "nav__menu"}>
         <div>
           <h1>Portfolio</h1>
           <button onClick={data.click}>Remove</button>

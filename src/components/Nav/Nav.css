@@ -1,16 +1,14 @@
-.slider__show {
-  background-color: rgb(226, 100, 100);
-  width: 100%;
+.nav__menu {
+  background-color: lawngreen;
+  width: 250px;
   height: 100vh;
-  z-index: 100;
-  width: 200px;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  row-gap: 1rem;
+  position: fixed;
+  left: -100%;
+  transition: 900ms;
 }
-.slider__hide {
-  height: 0;
-  overflow: hidden;
+.active {
+  left: 0;
+  transition: 500ms;
 }
 
 .slider__nav {
