@@ -1,0 +1,39 @@
+.about {
+  /* min-height: 100vh; */
+}
+.about__img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.about__bio {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  width: 100%;
+  border: 1px solid yellow;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.about__headline,
+.Education__headline {
+  text-align: center;
+}
+
+.about__data {
+  margin-top: 10px;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.Education {
+  padding: 15px;
+  border: 1px solid red;
+}
+.Eduaction___certificates,
+.Eduaction___certificate {
+  margin-top: 10px;
+}
+.Eduaction___certificate {
+  font-size: 21px;
+}

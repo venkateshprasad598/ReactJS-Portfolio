@@ -1,6 +1,5 @@
 import React from "react";
 import "./LandingPage.css";
-// import Link from "../Nav/Links/Links";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { BiChevronDown } from "react-icons/bi";
 

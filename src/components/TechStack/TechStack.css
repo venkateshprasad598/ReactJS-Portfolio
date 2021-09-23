@@ -1,0 +1,32 @@
+.techStack {
+  border: 1px solid black;
+  padding: 20px;
+}
+.techStack__headline {
+  text-align: center;
+}
+.techStack__subline {
+  margin-top: 15px;
+}
+.tech__icons {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.tech__span {
+  margin-top: 2rem;
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  /* justify-content: center; */
+}
+
+.tech__icon {
+  font-size: 50px;
+}
+.tech__icons > span > p {
+  font-size: 13px;
+  font-weight: 700;
+}

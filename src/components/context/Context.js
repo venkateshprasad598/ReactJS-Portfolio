@@ -11,7 +11,8 @@ export const UseProvider = ({ children }) => {
   };
 
   return (
-    <myContext.Provider value={{ click, slide }}>{children}</myContext.Provider>
+    <myContext.Provider value={{ click, slide }}>
+      {children}</myContext.Provider>
   );
 };
 
